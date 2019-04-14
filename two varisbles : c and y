@@ -35,9 +35,7 @@ dfuller y,lags(1)
 varbasic c y,lags(2/1) step(12)
 varlmar
 varsoc c y,maxlag(12)
-
 vecrank c y,max trend(constant) lags(2)
-
 vargranger
 
 irf table irf
